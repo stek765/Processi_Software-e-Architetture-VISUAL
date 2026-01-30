@@ -1,0 +1,5 @@
+{
+  "name": "Software Engineering Visualizer",
+  "description": "An interactive educational dashboard for visualizing core software engineering patterns and methodologies with smooth animations.",
+  "requestFramePermissions": []
+}
