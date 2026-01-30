@@ -1,4 +1,8 @@
 
+# VISUAL DYNAMIC (Software PROCESSES and ARCHITECTURE)
+
+https://github.com/user-attachments/assets/f007a398-7b6a-4284-9719-9f9f2af08bd2
+
 
 ## Run Locally
 
