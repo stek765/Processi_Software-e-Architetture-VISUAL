@@ -1,8 +1,12 @@
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-# VISUAL DYNAMIC (Software PROCESSES and ARCHITECTURE)
+# Run and deploy your AI Studio app
 
-https://github.com/user-attachments/assets/f007a398-7b6a-4284-9719-9f9f2af08bd2
+This contains everything you need to run your app locally.
 
+View your app in AI Studio: https://ai.studio/apps/drive/1LdnUXfN1UD8WXmPxvFgZMK99gucXicCC
 
 ## Run Locally
 

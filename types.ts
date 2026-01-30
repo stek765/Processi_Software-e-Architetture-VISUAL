@@ -7,6 +7,7 @@ export type ArchitectureConcept =
   | 'agile' 
   | 'mvc'
   | 'layered' 
+  | 'repository'
   | 'clientServer' 
   | 'peerToPeer' 
   | 'pipeFilter';

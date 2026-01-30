@@ -29,6 +29,7 @@ import IntegratedVisualizer from './components/visualizations/IntegratedVisualiz
 import AgileVisualizer from './components/visualizations/AgileVisualizer';
 import MVCVisualizer from './components/visualizations/MVCVisualizer';
 import LayeredVisualizer from './components/visualizations/LayeredVisualizer';
+import RepositoryVisualizer from './components/visualizations/RepositoryVisualizer';
 import ClientServerVisualizer from './components/visualizations/ClientServerVisualizer';
 import PeerToPeerVisualizer from './components/visualizations/PeerToPeerVisualizer';
 import PipeFilterVisualizer from './components/visualizations/PipeFilterVisualizer';
@@ -50,6 +51,7 @@ const App: React.FC = () => {
       case 'agile': return <Workflow className="w-5 h-5" />;
       case 'mvc': return <Layout className="w-5 h-5" />;
       case 'layered': return <Layers className="w-5 h-5" />;
+      case 'repository': return <Database className="w-5 h-5" />;
       case 'clientServer': return <Server className="w-5 h-5" />;
       case 'peerToPeer': return <Users className="w-5 h-5" />;
       case 'pipeFilter': return <GitBranch className="w-5 h-5" />;
@@ -65,6 +67,7 @@ const App: React.FC = () => {
       case 'agile': return <AgileVisualizer />;
       case 'mvc': return <MVCVisualizer />;
       case 'layered': return <LayeredVisualizer />;
+      case 'repository': return <RepositoryVisualizer />;
       case 'clientServer': return <ClientServerVisualizer />;
       case 'peerToPeer': return <PeerToPeerVisualizer />;
       case 'pipeFilter': return <PipeFilterVisualizer />;

@@ -157,6 +157,28 @@ export const CONCEPTS: ConceptDetail[] = [
     ]
   },
   {
+    id: 'repository',
+    title: 'Architettura Repository',
+    description: 'Tutti i dati del sistema sono gestiti in un repository centrale accessibile da tutti i componenti del sistema.',
+    pros: [
+      'Integrità dei dati centralizzata',
+      'Sottosistemi indipendenti l\'uno dall\'altro',
+      'Facile condivisione di grandi volumi di dati'
+    ],
+    cons: [
+      'Il repository centrale è un Single Point of Failure',
+      'Problemi di performance se l\'accesso è saturato',
+      'Evoluzione difficile del modello dati centrale'
+    ],
+    whenToUse: 'Sistemi complessi con molti sottosistemi che condividono dati massivi.',
+    category: 'Architettura',
+    examples: [
+      'Ambienti di sviluppo integrati (IDE come VS Code, IntelliJ)',
+      'Sistemi di database centralizzati',
+      'Sistemi CAD (Computer-Aided Design) complessi'
+    ]
+  },
+  {
     id: 'clientServer',
     title: 'Client-Server',
     description: 'Un server centrale fornisce risorse a molti client remoti via rete.',
